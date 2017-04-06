@@ -42,12 +42,12 @@ var tries = 7;
 
 function solveword(){
 
-
+//function to check if the users word is equal to the user word
 var g=prompt("enter full word  if you dare");
 
 
  var word=randomword.join("");
-
+//if user input uppercase equals the word then wongame is true
 if(g.toUpperCase()===word){
   wongame=true;
   alert("Congratulations!! you won!!!!")
@@ -66,30 +66,20 @@ document.getElementById("hint").disabled = true;
 
 
 }
-//
-// }
-  // var t=prompt("Enter the full word if you dare!!")
-  //
-  //
-  // for(var x=0;x<newword.length;x++){
-  //
-  //
-  // }
-
 
 for (var i = 0; i < newword.length; i++) {
     newword[i] = "_ ";
 }
 
 function printword() {
-
+//function to print blanks equal to the word length
 
 
     for (var i = 0; i < newword.length; i++) {
 
         var wor = document.getElementById('word');
         var tuna = document.createTextNode(newword[i]);
-      //  wor.split(" ");
+      
         wor.appendChild(tuna);
         console.log(tuna);
     }
@@ -113,7 +103,7 @@ quizImagesB[6]="http://img.photobucket.com/albums/v60/PandoraSD/Hangman/H6.gif"
 
 // output
 function checkletter() {
-
+//function to check user value to letters of the word
     var value = document.getElementById("guess").value;
 
     console.log(value);
@@ -194,22 +184,11 @@ document.getElementById("win").innerHTML="you have been hanged!!"+" "+"the word 
     if (tries===0){
           document.getElementById('hangman').src="https://lh3.ggpht.com/RHKkf_YzgC24WVjefBEHCVwZ1alzcA15oQgfsFd0tcgQo3_fgxFmLbyIGECcrZBD4KsJ=w300";
 
-          // location.reload();
+       
     }
   };
-        //
-        //     if (wrongletters[i] == text) {
-        //         alert('already there');
-        //     }
-        // }
-
-
-
-        // document.getElementById("newgame").addEventListener("click",function(){
-        //
-        //   location.reload();
-        // });
-
+      
+    
 document.addEventListener("DOMContentLoaded", function() {
     printword();
 });
