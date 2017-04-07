@@ -73,13 +73,13 @@ function printword() {
 
 
 // Image factory
-var quizImagesB = new Array();
 
-quizImagesB[0] = "https://upload.wikimedia.org/wikipedia/commons/3/30/Hangman-1.png"
-quizImagesB[1] =  "https://upload.wikimedia.org/wikipedia/commons/7/70/Hangman-2.png"
-quizImagesB[2] = "https://upload.wikimedia.org/wikipedia/commons/9/97/Hangman-3.png"
-quizImagesB[3] = "https://upload.wikimedia.org/wikipedia/commons/2/27/Hangman-4.png"
-quizImagesB[4] = "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hangman-5.png"
+var quizImagesB = new Array();
+quizImagesB[0] =  "https://upload.wikimedia.org/wikipedia/commons/3/30/Hangman-1.png"
+quizImagesB[1] =  "https://upload.wikimedia.org/wikipedia/commons/3/30/Hangman-1.png"
+quizImagesB[2] = "https://upload.wikimedia.org/wikipedia/commons/7/70/Hangman-2.png"
+quizImagesB[3] = "https://upload.wikimedia.org/wikipedia/commons/9/97/Hangman-3.png"
+quizImagesB[4] = "https://upload.wikimedia.org/wikipedia/commons/2/27/Hangman-4.png"
 quizImagesB[5] = "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hangman-5.png"
 quizImagesB[6] = "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hangman-6.png"
 
