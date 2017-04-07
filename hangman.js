@@ -34,8 +34,7 @@ function solveword() {
     if (g.toUpperCase() === word) {
         wongame = true;
         alert("Congratulations!! you won!!!!")
-         document.getElementById("check").disabled = true;
-        document.getElementById("hint").disabled = true;
+        
         sortingComplete();
         fireworks();
 
