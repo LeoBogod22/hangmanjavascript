@@ -75,13 +75,13 @@ function printword() {
 // Image factory
 var quizImagesB = new Array();
 
-quizImagesB[0] = "http://img.photobucket.com/albums/v60/PandoraSD/Hangman/H1.gif"
-quizImagesB[1] = "http://img.photobucket.com/albums/v60/PandoraSD/Hangman/H1.gif"
-quizImagesB[2] = "http://img.photobucket.com/albums/v60/PandoraSD/Hangman/H2.gif"
-quizImagesB[3] = "http://img.photobucket.com/albums/v60/PandoraSD/Hangman/H3.gif"
-quizImagesB[4] = "http://img.photobucket.com/albums/v60/PandoraSD/Hangman/H4.gif"
-quizImagesB[5] = "http://img.photobucket.com/albums/v60/PandoraSD/Hangman/H5.gif"
-quizImagesB[6] = "http://img.photobucket.com/albums/v60/PandoraSD/Hangman/H6.gif"
+quizImagesB[0] = "https://upload.wikimedia.org/wikipedia/commons/3/30/Hangman-1.png"
+quizImagesB[1] =  "https://upload.wikimedia.org/wikipedia/commons/7/70/Hangman-2.png"
+quizImagesB[2] = "https://upload.wikimedia.org/wikipedia/commons/9/97/Hangman-3.png"
+quizImagesB[3] = "https://upload.wikimedia.org/wikipedia/commons/2/27/Hangman-4.png"
+quizImagesB[4] = "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hangman-5.png"
+quizImagesB[5] = "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hangman-5.png"
+quizImagesB[6] = "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hangman-6.png"
 
 // output
 function checkletter() {
