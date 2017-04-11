@@ -1,4 +1,4 @@
- document.getElementById("check").addEventListener("click", function() {
+      document.getElementById("check").addEventListener("click", function() {
 
           checkletter();
       });
