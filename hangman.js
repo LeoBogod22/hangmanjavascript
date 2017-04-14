@@ -8,6 +8,7 @@ var words = [
 ]
 
 
+
 var hints = ["this is something programmers, designers and many other people use", "This is tech related", "this is a country", " this is a fruit"]
 
 
@@ -34,7 +35,7 @@ function solveword() {
     if (g.toUpperCase() === word) {
         wongame = true;
         alert("Congratulations!! you won!!!!")
-        
+
         sortingComplete();
         fireworks();
 
@@ -77,12 +78,12 @@ function printword() {
 
 var quizImagesB = new Array();
 quizImagesB[0] =  "https://upload.wikimedia.org/wikipedia/commons/3/30/Hangman-1.png"
-quizImagesB[1] =  "https://upload.wikimedia.org/wikipedia/commons/3/30/Hangman-1.png"
-quizImagesB[2] = "https://upload.wikimedia.org/wikipedia/commons/7/70/Hangman-2.png"
-quizImagesB[3] = "https://upload.wikimedia.org/wikipedia/commons/9/97/Hangman-3.png"
-quizImagesB[4] = "https://upload.wikimedia.org/wikipedia/commons/2/27/Hangman-4.png"
-quizImagesB[5] = "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hangman-5.png"
-quizImagesB[6] = "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hangman-6.png"
+quizImagesB[1] =  "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXgL_jJLIESl-fy6fgsTABH8armEhSUnS8LzZRZJZmz_PPkQSh"
+quizImagesB[2] = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDhrihIsAj_4Ut9PzQixm6mSfLlIJM-gPJspdl022nJHq9xeks"
+quizImagesB[3] = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/UKWheelRound1.JPG/220px-UKWheelRound1.JPG"
+quizImagesB[4] = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHzVnOWuS8VTqJXzClillx0JV5dWtt1Ne5HbrDpXTtg97eYf5V"
+quizImagesB[5] = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQHTt4sKwDiRtJBTbrny_KP9DC86_diypVy3SoJ69HaQ9x8Burb"
+quizImagesB[6] = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS7S6ZHhnlJZC3BaomsJVHR9hlynUrqjS2e9JKlJFMEXusi-uRH"
 
 // output
 function checkletter() {
