@@ -39,7 +39,7 @@ function solveword() {
     } else {
 
         alert("sorry you loose")
-        document.getElementById("win").innerHTML = "you have been hanged!!" + " " + "the word was" + " " + randomword.join("");
+        document.getElementById("win").innerHTML = "you are now bankrupt!!" + " " + "the word was" + " " + randomword.join("");
         document.getElementById('hangman').src = "https://lh3.ggpht.com/RHKkf_YzgC24WVjefBEHCVwZ1alzcA15oQgfsFd0tcgQo3_fgxFmLbyIGECcrZBD4KsJ=w300";
         document.getElementById("check").disabled = true;
         document.getElementById("hint").disabled = true;
