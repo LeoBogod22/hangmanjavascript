@@ -8,9 +8,7 @@ var words = [
 ]
 
 
-
 var hints = ["this is something programmers, designers and many other people use", "This is tech related", "this is a country", " this is a fruit"]
-
 
 var wongame = false;
 
@@ -28,7 +26,6 @@ function solveword() {
 
     //function to check if the users word is equal to the user word
     var g = prompt("enter full word  if you dare");
-
 
     var word = randomword.join("");
     //if user input uppercase equals the word then wongame is true
@@ -57,8 +54,6 @@ for (var i = 0; i < newword.length; i++) {
 
 function printword() {
     //function to print blanks equal to the word length
-
-
     for (var i = 0; i < newword.length; i++) {
 
         var wor = document.getElementById('word');
@@ -159,9 +154,6 @@ function checkletter() {
 
 function update(val) {
 
-
-
-
     imagevalue++;
     var url = 'url(' + quizImagesB[i] + ')';
     document.getElementById('hangman').src = quizImagesB[imagevalue];
@@ -173,7 +165,6 @@ function update(val) {
 
     }
 };
-
 
 document.addEventListener("DOMContentLoaded", function() {
     printword();
