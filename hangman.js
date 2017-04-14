@@ -146,7 +146,7 @@ function checkletter() {
 
     //once you got six wrong letters, you lose
     if (tries === 0) {
-        document.getElementById('hangman').src = "https://lh3.ggpht.com/RHKkf_YzgC24WVjefBEHCVwZ1alzcA15oQgfsFd0tcgQo3_fgxFmLbyIGECcrZBD4KsJ=w300";
+        document.getElementById('hangman').src = "https://s-media-cache-ak0.pinimg.com/564x/12/12/d5/1212d544642d1d4d6c2669b5b044b26f.jpg";
         alert("Uh...I guess you're dead now. Game over!!");
         document.getElementById("win").innerHTML = "you have been hanged!!" + " " + "the word was" + " " + randomword.join("");
         document.getElementById("check").disabled = true;
