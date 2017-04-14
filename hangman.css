@@ -2,9 +2,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 body {
-    background: url('http://www.writteninpencil.de/Projekte/Hangman/hangman-bg.png') fixed;
+    background: url('http://blastmagazine.com/wp-content/uploads/2013/01/did-a-wheel-of-fortune-contestant-lose-unfairly.jpg') fixed;
     text-align: center;
     font-family: Helvetica, sans-serif;
+    background-size: 100%;
 }
 input[type=button] {
     margin-top: 200px;
@@ -42,7 +43,8 @@ input[type=text] {
 }
 p {
     font-family: 'Shadows Into Light', 'cursive';
-    font-size: 20px;
+    font-size: 50px;
+    color:red;
 }
 #word {
     font-family: 'Permanent Marker', 'cursive';
@@ -50,7 +52,7 @@ p {
 }
 h2 {
     color: #adad85;
-    font-size: 40px;
+    font-size: 60px;
     z-index: 1000;
     position: relative;
     font-family: 'Gloria Hallelujah', 'cursive';
