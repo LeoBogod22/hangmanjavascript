@@ -30,21 +30,26 @@
     <br></br>
     <p>Press enter or click on the guess button to guess a letter</p>
     <form name="crp">
-        <input id="guess" type="text" size="5" maxlength="1" name="guess" required>
-        <input id="check" type="submit" value="Guess" name="guessbutton" required>
+        <input id="guess" type="text" size="5" maxlength="1" name="guess"  required>
+        <input id="check" type="submit" value="Guess" name="guessbutton" onclick="check()" required>
         <p id="tries"></p>
         <p id="cash"></p>
         <p id="lives"></p>
         <p id="wrong">Wrong Letters :</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Hangman-0.png" id="hangman"><br />
         <p id="win"></p>
-        <input id="newgame" name="refresh" type="button" value="New Game">
-        <button id="hint">Solve the Puzzle</button>
+        <input id="newgame" name="refresh" type="button" onclick="location.reload()"value="New Game">
+        <button onlclick="solveword()" id="hint">Solve the Puzzle</button>
         <p id="letter"></p>
         <!-- setup our canvas element -->
     </form>
-    <script scr="main2.js">
+    <script src="main2.js">
+
+
+
+
     </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 </body>
 
