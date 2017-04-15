@@ -59,7 +59,9 @@ h2 {
 }
 h1 {
     font-family: 'Permanent Marker', 'cursive';
-    color: red;
+    color: black;
+    border-radius:20px;
+  
     z-index: 1000;
     position: relative;
 }
